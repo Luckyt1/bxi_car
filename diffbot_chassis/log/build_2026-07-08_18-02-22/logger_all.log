@@ -1,0 +1,157 @@
+[0.067s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.067s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7398dd2fd840>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7398dd2fd3f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7398dd2fd3f0>>)[0m
+[0.157s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.157s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.157s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.157s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.157s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.157s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.157s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/bxi/car2/diffbot_chassis'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.164s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.164s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.164s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.164s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.164s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.164s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.164s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(lib) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(lib) by extension 'ignore'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(lib) by extension 'ignore_ament_install'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(lib) by extensions ['colcon_pkg']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(lib) by extension 'colcon_pkg'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(lib) by extensions ['colcon_meta']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(lib) by extension 'colcon_meta'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(lib) by extensions ['ros']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(lib) by extension 'ros'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(lib) by extensions ['cmake', 'python']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(lib) by extension 'cmake'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(lib) by extension 'python'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(lib) by extensions ['python_setup_py']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(lib) by extension 'python_setup_py'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chassis) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chassis) by extension 'ignore'
+[0.166s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chassis) by extension 'ignore_ament_install'
+[0.166s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chassis) by extensions ['colcon_pkg']
+[0.166s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chassis) by extension 'colcon_pkg'
+[0.166s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chassis) by extensions ['colcon_meta']
+[0.166s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chassis) by extension 'colcon_meta'
+[0.166s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chassis) by extensions ['ros']
+[0.166s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chassis) by extension 'ros'
+[0.167s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/chassis' with type 'ros.ament_cmake' and name 'chassis'[0m
+[0.167s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.167s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.167s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.167s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.167s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.184s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.184s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.184s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/bxi/car2/diffbot_chassis/install/chassis' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.184s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/bxi/car2/diffbot_chassis/install/chassis' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[0.185s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 7 installed packages in /opt/bxi/bxi_ros2_pkg[0m
+[0.185s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 0 installed packages in /home/bxi/car2/diffbot_chassis/install[0m
+[0.186s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 275 installed packages in /opt/ros/humble[0m
+[0.186s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.206s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chassis' build argument 'cmake_args' from command line to 'None'
+[0.207s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chassis' build argument 'cmake_target' from command line to 'None'
+[0.207s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chassis' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.207s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chassis' build argument 'cmake_clean_cache' from command line to 'False'
+[0.207s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chassis' build argument 'cmake_clean_first' from command line to 'False'
+[0.207s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chassis' build argument 'cmake_force_configure' from command line to 'False'
+[0.207s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chassis' build argument 'ament_cmake_args' from command line to 'None'
+[0.207s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chassis' build argument 'catkin_cmake_args' from command line to 'None'
+[0.207s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chassis' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.207s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'chassis' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bxi/car2/diffbot_chassis/build/chassis', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bxi/car2/diffbot_chassis/install/chassis', 'merge_install': False, 'path': '/home/bxi/car2/diffbot_chassis/src/chassis', 'symlink_install': False, 'test_result_base': None}[0m
+[0.207s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.208s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.208s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/bxi/car2/diffbot_chassis/src/chassis' with build type 'ament_cmake'
+[0.208s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/bxi/car2/diffbot_chassis/src/chassis'
+[0.209s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.209s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.209s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.216s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bxi/car2/diffbot_chassis/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bxi/car2/diffbot_chassis/src/chassis -DCMAKE_INSTALL_PREFIX=/home/bxi/car2/diffbot_chassis/install/chassis[0m
+[1.549s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bxi/car2/diffbot_chassis/build/chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bxi/car2/diffbot_chassis/src/chassis -DCMAKE_INSTALL_PREFIX=/home/bxi/car2/diffbot_chassis/install/chassis[0m
+[1.550s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bxi/car2/diffbot_chassis/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bxi/car2/diffbot_chassis/build/chassis -- -j16 -l16[0m
+[7.065s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bxi/car2/diffbot_chassis/build/chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bxi/car2/diffbot_chassis/build/chassis -- -j16 -l16[0m
+[7.078s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bxi/car2/diffbot_chassis/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bxi/car2/diffbot_chassis/build/chassis[0m
+[7.096s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(chassis)
+[7.097s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bxi/car2/diffbot_chassis/build/chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bxi/car2/diffbot_chassis/build/chassis[0m
+[7.101s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bxi/car2/diffbot_chassis/install/chassis' for CMake module files
+[7.101s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bxi/car2/diffbot_chassis/install/chassis' for CMake config files
+[7.102s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('chassis', 'cmake_prefix_path')
+[7.102s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/hook/cmake_prefix_path.ps1'
+[7.103s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/hook/cmake_prefix_path.dsv'
+[7.104s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/hook/cmake_prefix_path.sh'
+[7.105s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bxi/car2/diffbot_chassis/install/chassis/lib'
+[7.105s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bxi/car2/diffbot_chassis/install/chassis/bin'
+[7.105s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bxi/car2/diffbot_chassis/install/chassis/lib/pkgconfig/chassis.pc'
+[7.105s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bxi/car2/diffbot_chassis/install/chassis/lib/python3.10/site-packages'
+[7.106s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bxi/car2/diffbot_chassis/install/chassis/bin'
+[7.106s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.ps1'
+[7.108s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.dsv'
+[7.108s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.sh'
+[7.109s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.bash'
+[7.110s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.zsh'
+[7.111s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bxi/car2/diffbot_chassis/install/chassis/share/colcon-core/packages/chassis)
+[7.111s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(chassis)
+[7.112s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bxi/car2/diffbot_chassis/install/chassis' for CMake module files
+[7.112s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bxi/car2/diffbot_chassis/install/chassis' for CMake config files
+[7.112s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('chassis', 'cmake_prefix_path')
+[7.113s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/hook/cmake_prefix_path.ps1'
+[7.113s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/hook/cmake_prefix_path.dsv'
+[7.114s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/hook/cmake_prefix_path.sh'
+[7.114s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bxi/car2/diffbot_chassis/install/chassis/lib'
+[7.114s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bxi/car2/diffbot_chassis/install/chassis/bin'
+[7.114s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bxi/car2/diffbot_chassis/install/chassis/lib/pkgconfig/chassis.pc'
+[7.115s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bxi/car2/diffbot_chassis/install/chassis/lib/python3.10/site-packages'
+[7.115s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bxi/car2/diffbot_chassis/install/chassis/bin'
+[7.115s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.ps1'
+[7.116s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.dsv'
+[7.116s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.sh'
+[7.117s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.bash'
+[7.117s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.zsh'
+[7.117s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bxi/car2/diffbot_chassis/install/chassis/share/colcon-core/packages/chassis)
+[7.118s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[7.118s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[7.118s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[7.118s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[7.119s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[7.119s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/bxi/car2/diffbot_chassis/install/local_setup.ps1'
+[7.120s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/bxi/car2/diffbot_chassis/install/_local_setup_util_ps1.py'
+[7.121s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/bxi/car2/diffbot_chassis/install/setup.ps1'
+[7.122s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/bxi/car2/diffbot_chassis/install/local_setup.sh'
+[7.122s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/bxi/car2/diffbot_chassis/install/_local_setup_util_sh.py'
+[7.122s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/bxi/car2/diffbot_chassis/install/setup.sh'
+[7.123s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/bxi/car2/diffbot_chassis/install/local_setup.bash'
+[7.123s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/bxi/car2/diffbot_chassis/install/setup.bash'
+[7.124s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/bxi/car2/diffbot_chassis/install/local_setup.zsh'
+[7.124s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/bxi/car2/diffbot_chassis/install/setup.zsh'

@@ -1,0 +1,6 @@
+Invoking command in '/home/bxi/car2/diffbot_chassis/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bxi/car2/diffbot_chassis/src/chassis -DCMAKE_INSTALL_PREFIX=/home/bxi/car2/diffbot_chassis/install/chassis
+Invoked command in '/home/bxi/car2/diffbot_chassis/build/chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bxi/car2/diffbot_chassis/src/chassis -DCMAKE_INSTALL_PREFIX=/home/bxi/car2/diffbot_chassis/install/chassis
+Invoking command in '/home/bxi/car2/diffbot_chassis/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bxi/car2/diffbot_chassis/build/chassis -- -j16 -l16
+Invoked command in '/home/bxi/car2/diffbot_chassis/build/chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bxi/car2/diffbot_chassis/build/chassis -- -j16 -l16
+Invoking command in '/home/bxi/car2/diffbot_chassis/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bxi/car2/diffbot_chassis/build/chassis
+Invoked command in '/home/bxi/car2/diffbot_chassis/build/chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bxi/car2/diffbot_chassis/build/chassis

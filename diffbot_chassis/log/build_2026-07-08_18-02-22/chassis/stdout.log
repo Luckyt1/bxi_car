@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'libmodbus'
+--   Found libmodbus, version 3.1.6
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bxi/car2/diffbot_chassis/src/chassis/include>;/home/bxi/car2/diffbot_chassis/src/chassis/../../../include;/home/bxi/car2/diffbot_chassis/src/chassis/../../../bxi_pci_drv/lib
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bxi/car2/diffbot_chassis/build/chassis
+[ 20%] [32mBuilding CXX object CMakeFiles/key_control.dir/src/control.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/chassis.dir/src/chassis.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/chassis.dir/src/modbus4lift.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable key_control[0m
+[ 80%] Built target key_control
+[100%] [32m[1mLinking CXX executable chassis[0m
+[100%] Built target chassis
+-- Install configuration: ""
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/lib/chassis/chassis
+-- Set runtime path of "/home/bxi/car2/diffbot_chassis/install/chassis/lib/chassis/chassis" to ""
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/lib/chassis/key_control
+-- Set runtime path of "/home/bxi/car2/diffbot_chassis/install/chassis/lib/chassis/key_control" to ""
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/ament_index/resource_index/package_run_dependencies/chassis
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/ament_index/resource_index/parent_prefix_path/chassis
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/environment/ament_prefix_path.sh
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/environment/ament_prefix_path.dsv
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/environment/path.sh
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/environment/path.dsv
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/local_setup.bash
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/local_setup.sh
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/local_setup.zsh
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/local_setup.dsv
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.dsv
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/ament_index/resource_index/packages/chassis
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/cmake/chassisConfig.cmake
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/cmake/chassisConfig-version.cmake
+-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.xml

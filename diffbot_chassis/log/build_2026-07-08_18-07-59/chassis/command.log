@@ -1,0 +1,2 @@
+Invoking command in '/home/bxi/car2/diffbot_chassis/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bxi/car2/diffbot_chassis/build/chassis -- -j16 -l16
+Invoked command in '/home/bxi/car2/diffbot_chassis/build/chassis' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bxi/car2/diffbot_chassis/build/chassis -- -j16 -l16

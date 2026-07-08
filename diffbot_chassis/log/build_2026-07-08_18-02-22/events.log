@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000208] (chassis) JobQueued: {'identifier': 'chassis', 'dependencies': OrderedDict()}
+[0.000309] (chassis) JobStarted: {'identifier': 'chassis'}
+[0.005663] (chassis) JobProgress: {'identifier': 'chassis', 'progress': 'cmake'}
+[0.006172] (chassis) Command: {'cmd': ['/usr/bin/cmake', '/home/bxi/car2/diffbot_chassis/src/chassis', '-DCMAKE_INSTALL_PREFIX=/home/bxi/car2/diffbot_chassis/install/chassis'], 'cwd': '/home/bxi/car2/diffbot_chassis/build/chassis', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bxi'), ('SSH_CLIENT', '192.168.88.99 34550 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/bxi/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/bxi/bxi_ros2_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/bxi/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bxi'), ('OLDPWD', '/home/bxi/car2'), ('TERM_PROGRAM_VERSION', '1.110.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-17041f34-4e66-4267-a380-68e114724e6f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/bxi/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/bxi/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/bxi/bxi_ros2_pkg:/home/bxi/car2/diffbot_chassis/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bxi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bxi/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/remote-cli:/home/bxi/.local/bin:/home/bxi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bxi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6ff192e049.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/bxi/bxi_ros2_pkg:/opt/ros/humble:/home/bxi/car2/diffbot_chassis/install/chassis'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/opt/bxi/bxi_ros2_pkg/share/mujoco/cmake'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/bxi/car2/diffbot_chassis/build/chassis'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.88.99 34550 192.168.88.102 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/bxi/bxi_ros2_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/bxi/bxi_ros2_pkg:/home/bxi/car2/diffbot_chassis/install/chassis:/opt/ros/humble')]), 'shell': False}
+[0.099651] (-) TimerEvent: {}
+[0.163183] (chassis) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199732] (-) TimerEvent: {}
+[0.226988] (chassis) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.236581] (chassis) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299821] (-) TimerEvent: {}
+[0.317278] (chassis) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.327137] (chassis) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.328155] (chassis) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.328975] (chassis) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.333163] (chassis) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400060] (-) TimerEvent: {}
+[0.415809] (chassis) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.420700] (chassis) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.420920] (chassis) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.421220] (chassis) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.425118] (chassis) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500155] (-) TimerEvent: {}
+[0.560229] (chassis) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600244] (-) TimerEvent: {}
+[0.647653] (chassis) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.699202] (chassis) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.700368] (-) TimerEvent: {}
+[0.703415] (chassis) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.712283] (chassis) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.725048] (chassis) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.739935] (chassis) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.786904] (chassis) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.790901] (chassis) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800444] (-) TimerEvent: {}
+[0.882539] (chassis) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.900582] (-) TimerEvent: {}
+[0.908201] (chassis) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.947135] (chassis) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.958805] (chassis) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000836] (-) TimerEvent: {}
+[1.035905] (chassis) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.036608] (chassis) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100978] (-) TimerEvent: {}
+[1.122311] (chassis) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.123850] (chassis) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.180221] (chassis) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.195143] (chassis) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.196043] (chassis) StdoutLine: {'line': b"-- Checking for module 'libmodbus'\n"}
+[1.201090] (-) TimerEvent: {}
+[1.211398] (chassis) StdoutLine: {'line': b'--   Found libmodbus, version 3.1.6\n'}
+[1.250613] (chassis) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.301188] (-) TimerEvent: {}
+[1.320316] (chassis) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.320557] (chassis) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bxi/car2/diffbot_chassis/src/chassis/include>;/home/bxi/car2/diffbot_chassis/src/chassis/../../../include;/home/bxi/car2/diffbot_chassis/src/chassis/../../../bxi_pci_drv/lib\n'}
+[1.320673] (chassis) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.321105] (chassis) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.321705] (chassis) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.322249] (chassis) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.323153] (chassis) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.323269] (chassis) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.323745] (chassis) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.324948] (chassis) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.332271] (chassis) StdoutLine: {'line': b'-- Generating done\n'}
+[1.335143] (chassis) StdoutLine: {'line': b'-- Build files have been written to: /home/bxi/car2/diffbot_chassis/build/chassis\n'}
+[1.340546] (chassis) CommandEnded: {'returncode': 0}
+[1.341029] (chassis) JobProgress: {'identifier': 'chassis', 'progress': 'build'}
+[1.341579] (chassis) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bxi/car2/diffbot_chassis/build/chassis', '--', '-j16', '-l16'], 'cwd': '/home/bxi/car2/diffbot_chassis/build/chassis', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bxi'), ('SSH_CLIENT', '192.168.88.99 34550 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/bxi/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/bxi/bxi_ros2_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/bxi/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bxi'), ('OLDPWD', '/home/bxi/car2'), ('TERM_PROGRAM_VERSION', '1.110.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-17041f34-4e66-4267-a380-68e114724e6f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/bxi/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/bxi/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/bxi/bxi_ros2_pkg:/home/bxi/car2/diffbot_chassis/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bxi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bxi/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/remote-cli:/home/bxi/.local/bin:/home/bxi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bxi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6ff192e049.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/bxi/bxi_ros2_pkg:/opt/ros/humble:/home/bxi/car2/diffbot_chassis/install/chassis'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/opt/bxi/bxi_ros2_pkg/share/mujoco/cmake'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/bxi/car2/diffbot_chassis/build/chassis'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.88.99 34550 192.168.88.102 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/bxi/bxi_ros2_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/bxi/bxi_ros2_pkg:/home/bxi/car2/diffbot_chassis/install/chassis:/opt/ros/humble')]), 'shell': False}
+[1.396657] (chassis) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/key_control.dir/src/control.cpp.o\x1b[0m\n'}
+[1.398779] (chassis) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/chassis.dir/src/chassis.cpp.o\x1b[0m\n'}
+[1.398828] (chassis) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/chassis.dir/src/modbus4lift.cpp.o\x1b[0m\n'}
+[1.401247] (-) TimerEvent: {}
+[1.501481] (-) TimerEvent: {}
+[1.601723] (-) TimerEvent: {}
+[1.701953] (-) TimerEvent: {}
+[1.802260] (-) TimerEvent: {}
+[1.902577] (-) TimerEvent: {}
+[2.002893] (-) TimerEvent: {}
+[2.103204] (-) TimerEvent: {}
+[2.203518] (-) TimerEvent: {}
+[2.303842] (-) TimerEvent: {}
+[2.404184] (-) TimerEvent: {}
+[2.504495] (-) TimerEvent: {}
+[2.604865] (-) TimerEvent: {}
+[2.705158] (-) TimerEvent: {}
+[2.805473] (-) TimerEvent: {}
+[2.905809] (-) TimerEvent: {}
+[3.006177] (-) TimerEvent: {}
+[3.106495] (-) TimerEvent: {}
+[3.206810] (-) TimerEvent: {}
+[3.307134] (-) TimerEvent: {}
+[3.407432] (-) TimerEvent: {}
+[3.507838] (-) TimerEvent: {}
+[3.608203] (-) TimerEvent: {}
+[3.708474] (-) TimerEvent: {}
+[3.808874] (-) TimerEvent: {}
+[3.909237] (-) TimerEvent: {}
+[4.009648] (-) TimerEvent: {}
+[4.110062] (-) TimerEvent: {}
+[4.153295] (chassis) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable key_control\x1b[0m\n'}
+[4.210260] (-) TimerEvent: {}
+[4.285367] (chassis) StdoutLine: {'line': b'[ 80%] Built target key_control\n'}
+[4.310357] (-) TimerEvent: {}
+[4.410713] (-) TimerEvent: {}
+[4.511153] (-) TimerEvent: {}
+[4.611454] (-) TimerEvent: {}
+[4.711849] (-) TimerEvent: {}
+[4.812234] (-) TimerEvent: {}
+[4.912617] (-) TimerEvent: {}
+[5.013004] (-) TimerEvent: {}
+[5.113417] (-) TimerEvent: {}
+[5.213625] (-) TimerEvent: {}
+[5.313926] (-) TimerEvent: {}
+[5.414168] (-) TimerEvent: {}
+[5.514372] (-) TimerEvent: {}
+[5.614609] (-) TimerEvent: {}
+[5.714909] (-) TimerEvent: {}
+[5.815215] (-) TimerEvent: {}
+[5.915411] (-) TimerEvent: {}
+[6.015671] (-) TimerEvent: {}
+[6.115966] (-) TimerEvent: {}
+[6.216228] (-) TimerEvent: {}
+[6.316544] (-) TimerEvent: {}
+[6.416851] (-) TimerEvent: {}
+[6.517184] (-) TimerEvent: {}
+[6.580904] (chassis) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable chassis\x1b[0m\n'}
+[6.617271] (-) TimerEvent: {}
+[6.717524] (-) TimerEvent: {}
+[6.817847] (-) TimerEvent: {}
+[6.844552] (chassis) StdoutLine: {'line': b'[100%] Built target chassis\n'}
+[6.857089] (chassis) CommandEnded: {'returncode': 0}
+[6.858791] (chassis) JobProgress: {'identifier': 'chassis', 'progress': 'install'}
+[6.868671] (chassis) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bxi/car2/diffbot_chassis/build/chassis'], 'cwd': '/home/bxi/car2/diffbot_chassis/build/chassis', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bxi'), ('SSH_CLIENT', '192.168.88.99 34550 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/bxi/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/bxi/bxi_ros2_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/bxi/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/bxi'), ('OLDPWD', '/home/bxi/car2'), ('TERM_PROGRAM_VERSION', '1.110.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-17041f34-4e66-4267-a380-68e114724e6f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/bxi/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/bxi/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/bxi/bxi_ros2_pkg:/home/bxi/car2/diffbot_chassis/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bxi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bxi/.vscode-server/cli/servers/Stable-61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/server/bin/remote-cli:/home/bxi/.local/bin:/home/bxi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/bxi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6ff192e049.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/bxi/bxi_ros2_pkg:/opt/ros/humble:/home/bxi/car2/diffbot_chassis/install/chassis'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/opt/bxi/bxi_ros2_pkg/share/mujoco/cmake'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/bxi/car2/diffbot_chassis/build/chassis'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.88.99 34550 192.168.88.102 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/bxi/bxi_ros2_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/bxi/bxi_ros2_pkg:/home/bxi/car2/diffbot_chassis/install/chassis:/opt/ros/humble')]), 'shell': False}
+[6.880024] (chassis) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.880432] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/lib/chassis/chassis\n'}
+[6.883572] (chassis) StdoutLine: {'line': b'-- Set runtime path of "/home/bxi/car2/diffbot_chassis/install/chassis/lib/chassis/chassis" to ""\n'}
+[6.883807] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/lib/chassis/key_control\n'}
+[6.884903] (chassis) StdoutLine: {'line': b'-- Set runtime path of "/home/bxi/car2/diffbot_chassis/install/chassis/lib/chassis/key_control" to ""\n'}
+[6.885180] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/ament_index/resource_index/package_run_dependencies/chassis\n'}
+[6.885456] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/ament_index/resource_index/parent_prefix_path/chassis\n'}
+[6.885660] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/environment/ament_prefix_path.sh\n'}
+[6.885822] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/environment/ament_prefix_path.dsv\n'}
+[6.885988] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/environment/path.sh\n'}
+[6.886128] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/environment/path.dsv\n'}
+[6.886275] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/local_setup.bash\n'}
+[6.886392] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/local_setup.sh\n'}
+[6.886508] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/local_setup.zsh\n'}
+[6.886623] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/local_setup.dsv\n'}
+[6.886738] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.dsv\n'}
+[6.886852] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/ament_index/resource_index/packages/chassis\n'}
+[6.886967] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/cmake/chassisConfig.cmake\n'}
+[6.887141] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/cmake/chassisConfig-version.cmake\n'}
+[6.887259] (chassis) StdoutLine: {'line': b'-- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.xml\n'}
+[6.888333] (chassis) CommandEnded: {'returncode': 0}
+[6.909926] (chassis) JobEnded: {'identifier': 'chassis', 'rc': 0}
+[6.910632] (-) EventReactorShutdown: {}

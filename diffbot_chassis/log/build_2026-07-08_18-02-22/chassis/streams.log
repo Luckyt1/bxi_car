@@ -1,0 +1,80 @@
+[0.008s] Invoking command in '/home/bxi/car2/diffbot_chassis/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bxi/car2/diffbot_chassis/src/chassis -DCMAKE_INSTALL_PREFIX=/home/bxi/car2/diffbot_chassis/install/chassis
+[0.163s] -- The C compiler identification is GNU 11.4.0
+[0.227s] -- The CXX compiler identification is GNU 11.4.0
+[0.236s] -- Detecting C compiler ABI info
+[0.317s] -- Detecting C compiler ABI info - done
+[0.327s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.328s] -- Detecting C compile features
+[0.329s] -- Detecting C compile features - done
+[0.333s] -- Detecting CXX compiler ABI info
+[0.416s] -- Detecting CXX compiler ABI info - done
+[0.420s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.421s] -- Detecting CXX compile features
+[0.421s] -- Detecting CXX compile features - done
+[0.425s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.560s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.648s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.699s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.703s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.712s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.725s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.740s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.787s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.791s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.882s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.908s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.947s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.959s] -- Looking for pthread.h
+[1.036s] -- Looking for pthread.h - found
+[1.036s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.122s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.124s] -- Found Threads: TRUE  
+[1.180s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.195s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.196s] -- Checking for module 'libmodbus'
+[1.211s] --   Found libmodbus, version 3.1.6
+[1.250s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.320s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.320s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bxi/car2/diffbot_chassis/src/chassis/include>;/home/bxi/car2/diffbot_chassis/src/chassis/../../../include;/home/bxi/car2/diffbot_chassis/src/chassis/../../../bxi_pci_drv/lib
+[1.320s] -- Configured cppcheck exclude dirs and/or files: 
+[1.321s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.321s] -- Added test 'lint_cmake' to check CMake code style
+[1.322s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.323s] -- Added test 'uncrustify' to check C / C++ code style
+[1.323s] -- Configured uncrustify additional arguments: 
+[1.323s] -- Added test 'xmllint' to check XML markup files
+[1.325s] -- Configuring done
+[1.332s] -- Generating done
+[1.335s] -- Build files have been written to: /home/bxi/car2/diffbot_chassis/build/chassis
+[1.340s] Invoked command in '/home/bxi/car2/diffbot_chassis/build/chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bxi/car2/diffbot_chassis/src/chassis -DCMAKE_INSTALL_PREFIX=/home/bxi/car2/diffbot_chassis/install/chassis
+[1.342s] Invoking command in '/home/bxi/car2/diffbot_chassis/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bxi/car2/diffbot_chassis/build/chassis -- -j16 -l16
+[1.396s] [ 20%] [32mBuilding CXX object CMakeFiles/key_control.dir/src/control.cpp.o[0m
+[1.398s] [ 40%] [32mBuilding CXX object CMakeFiles/chassis.dir/src/chassis.cpp.o[0m
+[1.399s] [ 60%] [32mBuilding CXX object CMakeFiles/chassis.dir/src/modbus4lift.cpp.o[0m
+[4.153s] [ 80%] [32m[1mLinking CXX executable key_control[0m
+[4.285s] [ 80%] Built target key_control
+[6.581s] [100%] [32m[1mLinking CXX executable chassis[0m
+[6.844s] [100%] Built target chassis
+[6.857s] Invoked command in '/home/bxi/car2/diffbot_chassis/build/chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bxi/car2/diffbot_chassis/build/chassis -- -j16 -l16
+[6.870s] Invoking command in '/home/bxi/car2/diffbot_chassis/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bxi/car2/diffbot_chassis/build/chassis
+[6.880s] -- Install configuration: ""
+[6.880s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/lib/chassis/chassis
+[6.883s] -- Set runtime path of "/home/bxi/car2/diffbot_chassis/install/chassis/lib/chassis/chassis" to ""
+[6.884s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/lib/chassis/key_control
+[6.885s] -- Set runtime path of "/home/bxi/car2/diffbot_chassis/install/chassis/lib/chassis/key_control" to ""
+[6.885s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/ament_index/resource_index/package_run_dependencies/chassis
+[6.885s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/ament_index/resource_index/parent_prefix_path/chassis
+[6.885s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/environment/ament_prefix_path.sh
+[6.886s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/environment/ament_prefix_path.dsv
+[6.886s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/environment/path.sh
+[6.886s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/environment/path.dsv
+[6.886s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/local_setup.bash
+[6.886s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/local_setup.sh
+[6.886s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/local_setup.zsh
+[6.886s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/local_setup.dsv
+[6.886s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.dsv
+[6.887s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/ament_index/resource_index/packages/chassis
+[6.887s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/cmake/chassisConfig.cmake
+[6.887s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/cmake/chassisConfig-version.cmake
+[6.887s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.xml
+[6.889s] Invoked command in '/home/bxi/car2/diffbot_chassis/build/chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bxi/car2/diffbot_chassis/build/chassis

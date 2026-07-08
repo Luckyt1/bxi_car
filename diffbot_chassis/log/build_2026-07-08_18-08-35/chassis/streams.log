@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/bxi/car2/diffbot_chassis/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bxi/car2/diffbot_chassis/build/chassis -- -j16 -l16
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target key_control[0m
+[0.064s] [ 60%] Built target chassis
+[0.068s] [ 80%] [32mBuilding CXX object CMakeFiles/key_control.dir/src/control.cpp.o[0m
+[1.493s] [01m[K/home/bxi/car2/diffbot_chassis/src/chassis/src/control.cpp:[m[K In member function ‘[01m[Kvoid RemoteCtrl::update_target_twist()[m[K’:
+[1.493s] [01m[K/home/bxi/car2/diffbot_chassis/src/chassis/src/control.cpp:222:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.493s]   222 |             double [01;35m[Klinear_z[m[K = apply_deadzone(axis_value(axis_linear_z_), deadzone_);
+[1.493s]       |                    [01;35m[K^~~~~~~~[m[K
+[2.789s] [100%] [32m[1mLinking CXX executable key_control[0m
+[2.924s] [100%] Built target key_control
+[2.934s] Invoked command in '/home/bxi/car2/diffbot_chassis/build/chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bxi/car2/diffbot_chassis/build/chassis -- -j16 -l16
+[2.946s] Invoking command in '/home/bxi/car2/diffbot_chassis/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bxi/car2/diffbot_chassis/build/chassis
+[2.953s] -- Install configuration: ""
+[2.954s] -- Up-to-date: /home/bxi/car2/diffbot_chassis/install/chassis/lib/chassis/chassis
+[2.954s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/lib/chassis/key_control
+[2.955s] -- Set runtime path of "/home/bxi/car2/diffbot_chassis/install/chassis/lib/chassis/key_control" to ""
+[2.955s] -- Up-to-date: /home/bxi/car2/diffbot_chassis/install/chassis/share/ament_index/resource_index/package_run_dependencies/chassis
+[2.955s] -- Up-to-date: /home/bxi/car2/diffbot_chassis/install/chassis/share/ament_index/resource_index/parent_prefix_path/chassis
+[2.955s] -- Up-to-date: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/environment/ament_prefix_path.sh
+[2.955s] -- Up-to-date: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/environment/ament_prefix_path.dsv
+[2.955s] -- Up-to-date: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/environment/path.sh
+[2.955s] -- Up-to-date: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/environment/path.dsv
+[2.956s] -- Up-to-date: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/local_setup.bash
+[2.956s] -- Up-to-date: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/local_setup.sh
+[2.956s] -- Up-to-date: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/local_setup.zsh
+[2.956s] -- Up-to-date: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/local_setup.dsv
+[2.956s] -- Installing: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.dsv
+[2.956s] -- Up-to-date: /home/bxi/car2/diffbot_chassis/install/chassis/share/ament_index/resource_index/packages/chassis
+[2.956s] -- Up-to-date: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/cmake/chassisConfig.cmake
+[2.956s] -- Up-to-date: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/cmake/chassisConfig-version.cmake
+[2.956s] -- Up-to-date: /home/bxi/car2/diffbot_chassis/install/chassis/share/chassis/package.xml
+[2.958s] Invoked command in '/home/bxi/car2/diffbot_chassis/build/chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bxi/car2/diffbot_chassis/build/chassis

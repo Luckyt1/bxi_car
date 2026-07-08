@@ -1,0 +1,17 @@
+[0.007s] Invoking command in '/home/bxi/car2/diffbot_chassis/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bxi/car2/diffbot_chassis/build/chassis -- -j16 -l16
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target key_control[0m
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target chassis[0m
+[0.065s] [ 20%] [32mBuilding CXX object CMakeFiles/key_control.dir/src/control.cpp.o[0m
+[0.066s] [ 80%] Built target chassis
+[1.472s] [01m[K/home/bxi/car2/diffbot_chassis/src/chassis/src/control.cpp:[m[K In member function ‘[01m[Kvoid RemoteCtrl::update_target_twist()[m[K’:
+[1.472s] [01m[K/home/bxi/car2/diffbot_chassis/src/chassis/src/control.cpp:227:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Twist = struct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klinear_z[m[K’; did you mean ‘[01m[Klinear[m[K’?
+[1.472s]   227 |             cmd.[01;31m[Klinear_z[m[K=angular_z;
+[1.472s]       |                 [01;31m[K^~~~~~~~[m[K
+[1.472s]       |                 [32m[Klinear[m[K
+[1.472s] [01m[K/home/bxi/car2/diffbot_chassis/src/chassis/src/control.cpp:222:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.472s]   222 |             double [01;35m[Klinear_z[m[K = apply_deadzone(axis_value(axis_linear_z_), deadzone_);
+[1.472s]       |                    [01;35m[K^~~~~~~~[m[K
+[1.973s] gmake[2]: *** [CMakeFiles/key_control.dir/build.make:76: CMakeFiles/key_control.dir/src/control.cpp.o] Error 1
+[1.973s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/key_control.dir/all] Error 2
+[1.973s] gmake: *** [Makefile:146: all] Error 2
+[1.975s] Invoked command in '/home/bxi/car2/diffbot_chassis/build/chassis' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bxi/car2/diffbot_chassis/build/chassis -- -j16 -l16
